@@ -43,6 +43,49 @@ body{
     width: 50%;
     padding: 1.2rem;
 }
+
+.coluna-cadastro{
+    display: flex;
+    flex-direction: column;
+    background-color: #006969;
+    width: 100%;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.voltar {
+    color: #CCCCCC;
+}
+
+.input{
+    height: 2rem;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+a{
+    font-size: 0.8rem;
+}
+
+.button-register {
+    width: 30%;
+    
+    color: #197272;
+    background-color: #CCCCCC;
+    
+    border: none;
+    border-radius: 0.25rem;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
 .coluna-2{
     background-color: #008887;
     width: 50%;
@@ -105,7 +148,7 @@ button:hover{
     }
 
     .colunas{
-    flex-direction: column;
+        flex-direction: column;
     }
 
     .coluna-1, .coluna-2{
