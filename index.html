@@ -27,10 +27,8 @@
         }
 
         .colunas{
-            background-color: #006969;
             display: flex;
             justify-content: space-around;
-            padding: 20px;
             color: #F5F5F5;
         }
 
@@ -48,7 +46,62 @@
             margin-bottom: 20px;
         }
 
+        .coluna-1{
+            background-color: #006969;
+            width: 50%;
+            padding: 20px;
+        }
+        .coluna-2{
+            background-color: #008887;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .column-title {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button{
+            width: 100%;
+            
+            color: #197272;
+            background-color: #CCCCCC;
+            
+            border: none;
+            border-radius: 4px;
+
+            padding: 15px 32px; 
+
+            margin-top: 25px;
+
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #E9E9E9;
+        }
+
+        .price{
+            font-weight: 700;
+            font-size: 26px;
+        }
+
+        .month{
+            font-size: 10px;
+            font-weight: 300;
+            font-style: italic;
+            margin-left: 15px;
+        }
+
+
         
+        .subtitle {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+
     </style>
 </head>
 <body>
@@ -66,10 +119,14 @@
             </div>
         </div>
             <div class="colunas">
-                <div>
-                    coluna 1
+                <div class="coluna-1">
+                    <div class="column-title">Assinatura mensal:</div>
+                    <span class="price">R$ 99,99 </span>
+                    <span class="month">por mês</span>
+                    <div class="subtitle">Cancele a qualquer momento.</div>
+                    <button>Assine Agora</button>
                 </div>
-                <div>
+                <div class="coluna-2">
                     coluna 2
                 </div>
             </div>
