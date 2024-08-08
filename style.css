@@ -14,7 +14,7 @@ body{
 }
 
 .header {
-    padding: 2.5rem;
+    padding: 0.9rem;
 }
 
 .colunas{
@@ -52,38 +52,26 @@ body{
     padding: 1.2rem;
     box-sizing: border-box;
     text-align: center;
+    align-items: center;
+    align-content: space-around;
 }
 
 .voltar {
     color: #CCCCCC;
 }
 
-.input{
+input{
     height: 2rem;
-    border: none;
+    border: 0;
     border-radius: 4px;
     width: 100%;
-    margin-bottom: 15px;
-    font-size: 1rem;
-    font-weight: 500;
-}
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+} 
 
-a{
-    font-size: 0.8rem;
-}
-
-.button-register {
-    width: 30%;
-    
-    color: #197272;
-    background-color: #CCCCCC;
-    
-    border: none;
-    border-radius: 0.25rem;
-
-    text-align: center;
-
-    cursor: pointer;
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #008887;
 }
 
 .coluna-2{
@@ -154,5 +142,9 @@ button:hover{
     .coluna-1, .coluna-2{
         width: 100%;
         box-sizing: border-box;
+    }
+
+    .header{
+        padding: 15px;
     }
 }
