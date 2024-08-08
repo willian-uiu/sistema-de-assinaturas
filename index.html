@@ -39,7 +39,7 @@
             margin-bottom: 1.2rem;
         }
 
-        
+
         .header-subtitle{
             color: #008787;
             font-size: 1.2rem;
@@ -102,6 +102,26 @@
         
         .image-group{
             text-align: center;
+        }
+
+        @media screen and (max-width: 620px) {
+            html{
+                font-size: 14px;
+            }
+
+            .container{
+                width: 95%;
+            }
+
+            .colunas{
+            flex-direction: column;
+            }
+
+            .coluna-1, .coluna-2{
+                width: 100%;
+                box-sizing: border-box;
+            }
+
         }
 
     </style>
